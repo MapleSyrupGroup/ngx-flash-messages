@@ -1,0 +1,46 @@
+<div class="container">
+  <h1 class="text-center title-spacing">@maple-syrup-media/ngx-flash-messages Demo</h1>
+
+  <ngx-flash-messages></ngx-flash-messages>
+
+  <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 panel panel-default">
+    <div class="panel-body">
+      <div class="form-group">
+        <label for="flash_message_content">Message</label>
+        <input type="text"
+          id="flash_message_content"
+          class="form-control"
+          [placeholder]="defaultMessage"
+          [(ngModel)]="messageText"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="class_list">Classes</label>
+        <select [(ngModel)]="messageClass" id="class_list" class="form-control">
+          <option *ngFor="let class of classList" [value]="class">{{ class }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="flash_message_timeout">Timeout (ms)</label>
+        <input type="text"
+          id="flash_message_timeout"
+          class="form-control"
+          placeholder="Default is: 3000"
+          [(ngModel)]="messageTimeout"
+        >
+      </div>
+
+      <button class="btn btn-primary" (click)="createFlashMessage()">Add message</button>
+    </div>
+  </div>
+</div>
+
+<a href="https://github.com/MapleSyrupGroup/ngx-flash-messages">
+  <img style="position: absolute; top: 0; right: 0; border: 0;"
+    src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+    alt="Fork me on GitHub"
+    data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+  >
+</a>

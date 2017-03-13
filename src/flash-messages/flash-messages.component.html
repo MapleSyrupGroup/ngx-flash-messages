@@ -1,0 +1,7 @@
+<div id="flashMessages" class="flash-messages">
+  <div class="alert flash-message"
+    *ngFor='let message of messages'
+    [ngClass]="message.options.classes">
+    <p>{{ message.text }}</p>
+  </div>
+</div>
