@@ -18,12 +18,13 @@
     "clean:install": "npm run clean && npm install",
     "e2e": "ng e2e",
     "prepublish": "npm run build:lib",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post && npm run updateghpage"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/MapleSyrupGroup/ngx-flash-messages"
   },
+  "description": "Flash messages/notifications for Angular 2+",
   "keywords": [
     "angular",
     "angular2",
@@ -32,6 +33,7 @@
     "ngx",
     "flash",
     "messages",
+    "notifications",
     "component",
     "service"
   ],
