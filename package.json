@@ -1,5 +1,5 @@
 {
-  "name": "@maple-syrup-media/ngx-flash-messages",
+  "name": "ngx-flash-messages",
   "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {

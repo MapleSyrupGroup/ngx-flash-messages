@@ -1,11 +1,11 @@
-[![npm version](https://badge.fury.io/js/%40maple-syrup-media%2Fngx-flash-messages.svg)](https://www.npmjs.com/package/@maple-syrup-media/ngx-flash-messages)
+[![npm version](https://badge.fury.io/js/ngx-flash-messages.svg)](https://www.npmjs.com/package/ngx-flash-messages)
 [![Build Status](https://travis-ci.org/MapleSyrupGroup/ngx-flash-messages.svg?branch=master)](https://travis-ci.org/MapleSyrupGroup/ngx-flash-messages)
 [![codecov](https://codecov.io/gh/MapleSyrupGroup/ngx-flash-messages/branch/master/graph/badge.svg)](https://codecov.io/gh/MapleSyrupGroup/ngx-flash-messages)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Greenkeeper badge](https://badges.greenkeeper.io/MapleSyrupGroup/ngx-flash-messages.svg)](https://greenkeeper.io/)
 
-# @maple-syrup-media/ngx-flash-messages
+# ngx-flash-messages
 
 Flash messages for Angular 2+ [Demo](https://maplesyrupgroup.github.io/ngx-flash-messages/)
 
@@ -13,14 +13,14 @@ Flash messages for Angular 2+ [Demo](https://maplesyrupgroup.github.io/ngx-flash
 
 Add the library to your dependencies
 ```shell
-npm install --save @maple-syrup-media/ngx-flash-messages
+npm install --save ngx-flash-messages
 ```
 Import the `FlashMessagesModule` into your main module
 
 ```ts
 // app.module.ts
 
-import { FlashMessagesModule } from '@maple-syrup-media/ngx-flash-messages';
+import { FlashMessagesModule } from 'ngx-flash-messages';
 
 @NgModule({
   imports: [
@@ -37,7 +37,7 @@ To display a new flash message we need to make use of the `FlashMessagesService`
 // my-component.component.ts
 import { Component, OnInit } from '@angular/core';
 
-import { FlashMessagesService } from '@maple-syrup-media/ngx-flash-messages';
+import { FlashMessagesService } from 'ngx-flash-messages';
 
 @Component({
   selector: 'my-component',
