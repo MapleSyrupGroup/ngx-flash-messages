@@ -60,7 +60,7 @@
     "@types/jasmine": "2.5.41",
     "@types/node": "7.0.8",
     "angular-cli-ghpages": "0.5.0",
-    "angular-library-builder": "1.3.5",
+    "angular-library-builder": "1.3.6",
     "bootstrap": "3.3.7",
     "codecov": "^2.0.2",
     "codelyzer": "2.0.1",
