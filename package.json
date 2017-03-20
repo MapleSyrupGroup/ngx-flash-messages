@@ -74,7 +74,7 @@
     "karma-coverage-istanbul-reporter": "0.3.0",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-html-reporter": "0.2.2",
-    "karma-mocha-reporter": "2.2.2",
+    "karma-mocha-reporter": "2.2.3",
     "protractor": "5.1.1",
     "rimraf": "2.6.1",
     "semantic-release": "6.3.2",
