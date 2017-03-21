@@ -52,7 +52,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.0-rc.2",
+    "@angular/cli": "1.0.0-rc.4",
     "@angular/compiler-cli": "^2.4.9",
     "@angular/forms": "^2.4.9", "@angular/platform-browser": "^2.4.9",
     "@angular/platform-browser-dynamic": "^2.4.9",
