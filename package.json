@@ -45,7 +45,7 @@
   "main": "./lib-dist/flash-messages.module.js",
   "types": "./lib-dist/flash-messages.module.d.ts",
   "dependencies": {
-    "@angular/common": "^2.4.0",
+    "@angular/common": "^4.0.0",
     "@angular/core": "^2.4.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
