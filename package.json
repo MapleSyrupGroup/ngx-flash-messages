@@ -44,17 +44,13 @@
   "homepage": "https://github.com/MapleSyrupGroup/ngx-flash-messages#readme",
   "main": "./lib-dist/flash-messages.module.js",
   "types": "./lib-dist/flash-messages.module.d.ts",
-  "dependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
-  },
   "devDependencies": {
     "@angular/cli": "1.0.0",
+    "@angular/common": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
-    "@angular/forms": "^4.0.0", "@angular/platform-browser": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "@types/jasmine": "2.5.46",
@@ -65,6 +61,7 @@
     "codecov": "^2.0.2",
     "codelyzer": "2.0.1",
     "commitizen": "2.9.6",
+    "core-js": "^2.4.1",
     "cz-conventional-changelog": "2.0.0",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "3.2.0",
@@ -77,10 +74,12 @@
     "karma-mocha-reporter": "2.2.3",
     "protractor": "5.1.1",
     "rimraf": "2.6.1",
+    "rxjs": "^5.1.0",
     "semantic-release": "6.3.2",
     "ts-node": "3.0.2",
     "tslint": "4.5.1",
-    "typescript": "2.2.1"
+    "typescript": "2.2.1",
+    "zone.js": "^0.8.4"
   },
   "config": {
     "commitizen": {
