@@ -52,7 +52,7 @@
     "zone.js": ">=0.7.0"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.1",
+    "@angular/cli": "1.0.2",
     "@angular/common": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
     "@angular/core": "^4.0.0",
@@ -61,7 +61,7 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "@types/jasmine": "2.5.47",
-    "@types/node": "7.0.14",
+    "@types/node": "7.0.15",
     "angular-cli-ghpages": "0.5.0",
     "angular-library-builder": "1.5.5",
     "bootstrap": "3.3.7",
@@ -73,7 +73,7 @@
     "jasmine-core": "2.6.1",
     "jasmine-spec-reporter": "4.1.0",
     "karma": "1.6.0",
-    "karma-chrome-launcher": "2.0.0",
+    "karma-chrome-launcher": "2.1.0",
     "karma-cli": "1.0.1",
     "karma-coverage-istanbul-reporter": "1.2.1",
     "karma-jasmine": "1.1.0",
@@ -83,9 +83,9 @@
     "rimraf": "2.6.1",
     "rxjs": "^5.1.0",
     "semantic-release": "6.3.6",
-    "ts-node": "3.0.2",
-    "tslint": "4.5.1",
-    "typescript": "2.3.1",
+    "ts-node": "3.0.3",
+    "tslint": "5.2.0",
+    "typescript": "2.3.2",
     "zone.js": "^0.8.4"
   },
   "config": {
