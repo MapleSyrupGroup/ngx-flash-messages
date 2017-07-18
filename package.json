@@ -86,7 +86,7 @@
     "ts-node": "3.0.3",
     "tslint": "5.2.0",
     "typescript": "2.3.4",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.14"
   },
   "config": {
     "commitizen": {
