@@ -58,7 +58,7 @@
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.4.1",
     "@angular/router": "^4.0.0",
     "@types/node": "7.0.27",
     "@types/jasmine": "2.5.51",
