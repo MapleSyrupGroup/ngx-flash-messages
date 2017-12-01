@@ -54,7 +54,7 @@
   "devDependencies": {
     "@angular/cli": "1.0.6",
     "@angular/common": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
+    "@angular/compiler-cli": "^5.0.5",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
