@@ -82,7 +82,7 @@
     "protractor": "5.1.2",
     "rimraf": "2.6.1",
     "rxjs": "^5.1.0",
-    "semantic-release": "6.3.6",
+    "semantic-release": "15.6.2",
     "ts-node": "3.0.3",
     "tslint": "5.2.0",
     "typescript": "2.3.4",
